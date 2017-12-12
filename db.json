@@ -1,0 +1,5198 @@
+[
+    {
+        "nomenclator": "ProductosDistribuidor.txt",
+        "label": "Productos de distribuidor",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "Código del producto"
+            },
+            {
+                "columnKey": "Descripcion",
+                "columnName": "Descripcion"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "UnidadMedida",
+                "columnName": "UnidadMedida"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Clasificacion4",
+                "columnName": "Clasificacion4"
+            },
+            {
+                "columnKey": "Clasificacion5",
+                "columnName": "Clasificacion5"
+            },
+            {
+                "columnKey": "Clasificacion6",
+                "columnName": "Clasificacion6"
+            },
+            {
+                "columnKey": "Clasificacion7",
+                "columnName": "Clasificacion7"
+            },
+            {
+                "columnKey": "Clasificacion8",
+                "columnName": "Clasificacion8"
+            },
+            {
+                "columnKey": "Clasificacion9",
+                "columnName": "Clasificacion9"
+            },
+            {
+                "columnKey": "Clasificacion10",
+                "columnName": "Clasificacion10"
+            },
+            {
+                "columnKey": "Clasificacion11",
+                "columnName": "Clasificacion11"
+            },
+            {
+                "columnKey": "Clasificacion12",
+                "columnName": "Clasificacion12"
+            },
+            {
+                "columnKey": "Clasificacion13",
+                "columnName": "Clasificacion13"
+            },
+            {
+                "columnKey": "Clasificacion14",
+                "columnName": "Clasificacion14"
+            },
+            {
+                "columnKey": "Jerarquia",
+                "columnName": "Jerarquia"
+            },
+            {
+                "columnKey": "EAN13",
+                "columnName": "EAN13"
+            },
+            {
+                "columnKey": "Fabricante",
+                "columnName": "Fabricante"
+            },
+            {
+                "columnKey": "CodigoProdFab",
+                "columnName": "CodigoProdFab"
+            },
+            {
+                "columnKey": "EsKit",
+                "columnName": "EsKit"
+            },
+            {
+                "columnKey": "ImagenPrincipal",
+                "columnName": "ImagenPrincipal"
+            },
+            {
+                "columnKey": "Url",
+                "columnName": "Url"
+            },
+            {
+                "columnKey": "Nutrientes",
+                "columnName": "Nutrientes"
+            },
+            {
+                "columnKey": "Alergenos",
+                "columnName": "Alergenos"
+            },
+            {
+                "columnKey": "Ingredientes",
+                "columnName": "Ingredientes"
+            },
+            {
+                "columnKey": "Contenidos",
+                "columnName": "Contenidos"
+            },
+            {
+                "columnKey": "Atributos",
+                "columnName": "Atributos"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ClientesFinalesDistribuidor.txt",
+        "label": "Clientes",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "Nombre",
+                "columnName": "Nombre"
+            },
+            {
+                "columnKey": "RazonSocial",
+                "columnName": "RazonSocial"
+            },
+            {
+                "columnKey": "CIF",
+                "columnName": "CIF"
+            },
+            {
+                "columnKey": "Direccion",
+                "columnName": "Direccion"
+            },
+            {
+                "columnKey": "Tipo Calle",
+                "columnName": "Tipo Calle"
+            },
+            {
+                "columnKey": "Calle",
+                "columnName": "Calle"
+            },
+            {
+                "columnKey": "Numero",
+                "columnName": "Numero"
+            },
+            {
+                "columnKey": "Poblacion",
+                "columnName": "Poblacion"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "CodigoPais",
+                "columnName": "CodigoPais"
+            },
+            {
+                "columnKey": "PaginaWEB",
+                "columnName": "PaginaWEB"
+            },
+            {
+                "columnKey": "Telefono1",
+                "columnName": "Telefono1"
+            },
+            {
+                "columnKey": "Telefono2",
+                "columnName": "Telefono2"
+            },
+            {
+                "columnKey": "FAX",
+                "columnName": "FAX"
+            },
+            {
+                "columnKey": "Email",
+                "columnName": "Email"
+            },
+            {
+                "columnKey": "PersonaContacto",
+                "columnName": "PersonaContacto"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "Clasificacion1 (reservado)",
+                "columnName": "Clasificacion1 (reservado)"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Clasificacion4",
+                "columnName": "Clasificacion4"
+            },
+            {
+                "columnKey": "Clasificacion5",
+                "columnName": "Clasificacion5"
+            },
+            {
+                "columnKey": "Clasificacion6",
+                "columnName": "Clasificacion6"
+            },
+            {
+                "columnKey": "Clasificacion7",
+                "columnName": "Clasificacion7"
+            },
+            {
+                "columnKey": "CodigoMoneda",
+                "columnName": "CodigoMoneda"
+            },
+            {
+                "columnKey": "PuntoOperacional",
+                "columnName": "PuntoOperacional"
+            },
+            {
+                "columnKey": "CódigoINE",
+                "columnName": "CódigoINE"
+            },
+            {
+                "columnKey": "Barrio",
+                "columnName": "Barrio"
+            },
+            {
+                "columnKey": "FormaPago",
+                "columnName": "FormaPago"
+            },
+            {
+                "columnKey": "RecargoEquivalencia",
+                "columnName": "RecargoEquivalencia"
+            },
+            {
+                "columnKey": "HorarioApertura",
+                "columnName": "HorarioApertura"
+            },
+            {
+                "columnKey": "HorarioVisita",
+                "columnName": "HorarioVisita"
+            },
+            {
+                "columnKey": "Vacaciones",
+                "columnName": "Vacaciones"
+            },
+            {
+                "columnKey": "FechaAlta",
+                "columnName": "FechaAlta"
+            },
+            {
+                "columnKey": "FechaBaja",
+                "columnName": "FechaBaja"
+            },
+            {
+                "columnKey": "MotivoBaja",
+                "columnName": "MotivoBaja"
+            },
+            {
+                "columnKey": "Clasificacion8",
+                "columnName": "Clasificacion8"
+            },
+            {
+                "columnKey": "Clasificacion9",
+                "columnName": "Clasificacion9"
+            },
+            {
+                "columnKey": "Clasificacion10",
+                "columnName": "Clasificacion10"
+            },
+            {
+                "columnKey": "Clasificacion11",
+                "columnName": "Clasificacion11"
+            },
+            {
+                "columnKey": "Clasificacion12",
+                "columnName": "Clasificacion12"
+            },
+            {
+                "columnKey": "Clasificacion13",
+                "columnName": "Clasificacion13"
+            },
+            {
+                "columnKey": "Clasificacion14",
+                "columnName": "Clasificacion14"
+            },
+            {
+                "columnKey": "Clasificacion15",
+                "columnName": "Clasificacion15"
+            },
+            {
+                "columnKey": "Clasificacion16",
+                "columnName": "Clasificacion16"
+            },
+            {
+                "columnKey": "Clasificacion17",
+                "columnName": "Clasificacion17"
+            },
+            {
+                "columnKey": "Clasificacion18",
+                "columnName": "Clasificacion18"
+            },
+            {
+                "columnKey": "Clasificacion19",
+                "columnName": "Clasificacion19"
+            },
+            {
+                "columnKey": "Clasificacion20",
+                "columnName": "Clasificacion20"
+            },
+            {
+                "columnKey": "Clasificacion21",
+                "columnName": "Clasificacion21"
+            },
+            {
+                "columnKey": "Clasificacion22",
+                "columnName": "Clasificacion22"
+            },
+            {
+                "columnKey": "Clasificacion23",
+                "columnName": "Clasificacion23"
+            },
+            {
+                "columnKey": "Clasificacion24",
+                "columnName": "Clasificacion24"
+            },
+            {
+                "columnKey": "Clasificacion25",
+                "columnName": "Clasificacion25"
+            },
+            {
+                "columnKey": "Clasificacion26",
+                "columnName": "Clasificacion26"
+            },
+            {
+                "columnKey": "Clasificacion27",
+                "columnName": "Clasificacion27"
+            },
+            {
+                "columnKey": "Clasificacion28",
+                "columnName": "Clasificacion28"
+            },
+            {
+                "columnKey": "Clasificacion29",
+                "columnName": "Clasificacion29"
+            },
+            {
+                "columnKey": "Clasificacion30",
+                "columnName": "Clasificacion30"
+            },
+            {
+                "columnKey": "Clasificacion31",
+                "columnName": "Clasificacion31"
+            },
+            {
+                "columnKey": "Clasificacion32",
+                "columnName": "Clasificacion32"
+            },
+            {
+                "columnKey": "Clasificacion33",
+                "columnName": "Clasificacion33"
+            },
+            {
+                "columnKey": "Clasificacion34",
+                "columnName": "Clasificacion34"
+            },
+            {
+                "columnKey": "Clasificacion35",
+                "columnName": "Clasificacion35"
+            },
+            {
+                "columnKey": "Clasificacion36",
+                "columnName": "Clasificacion36"
+            },
+            {
+                "columnKey": "Clasificacion37",
+                "columnName": "Clasificacion37"
+            },
+            {
+                "columnKey": "Clasificacion38",
+                "columnName": "Clasificacion38"
+            },
+            {
+                "columnKey": "Clasificacion39",
+                "columnName": "Clasificacion39"
+            },
+            {
+                "columnKey": "Clasificacion40",
+                "columnName": "Clasificacion40"
+            },
+            {
+                "columnKey": "Clasificacion41",
+                "columnName": "Clasificacion41"
+            },
+            {
+                "columnKey": "Clasificacion42",
+                "columnName": "Clasificacion42"
+            },
+            {
+                "columnKey": "Clasificacion43",
+                "columnName": "Clasificacion43"
+            },
+            {
+                "columnKey": "Clasificacion44",
+                "columnName": "Clasificacion44"
+            },
+            {
+                "columnKey": "Clasificacion45",
+                "columnName": "Clasificacion45"
+            },
+            {
+                "columnKey": "Clasificacion46",
+                "columnName": "Clasificacion46"
+            },
+            {
+                "columnKey": "Clasificacion47",
+                "columnName": "Clasificacion47"
+            },
+            {
+                "columnKey": "Clasificacion48",
+                "columnName": "Clasificacion48"
+            },
+            {
+                "columnKey": "Clasificacion49",
+                "columnName": "Clasificacion49"
+            },
+            {
+                "columnKey": "Clasificacion50",
+                "columnName": "Clasificacion50"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ClasificacionesDistribuidor.txt",
+        "label": "Clasificaciones",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "EntidadClasificada",
+                "columnName": "EntidadClasificada"
+            },
+            {
+                "columnKey": "Codigo",
+                "columnName": "Codigo"
+            },
+            {
+                "columnKey": "Descripcion",
+                "columnName": "Descripcion"
+            },
+            {
+                "columnKey": "CodigoInterno",
+                "columnName": "CodigoInterno"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            }
+        ]
+    },
+    {
+        "nomenclator": "Rutas.txt",
+        "label": "Rutas",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "CodigoRuta",
+                "columnName": "CodigoRuta"
+            },
+            {
+                "columnKey": "Nombre",
+                "columnName": "Nombre"
+            },
+            {
+                "columnKey": "FechaAlta",
+                "columnName": "FechaAlta"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "Provincia",
+                "columnName": "Provincia"
+            },
+            {
+                "columnKey": "CodigoPais",
+                "columnName": "CodigoPais"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            }
+        ]
+    },
+    {
+        "nomenclator": "Comerciales.txt",
+        "label": "Comerciales",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "CodigoComercial",
+                "columnName": "CodigoComercial"
+            },
+            {
+                "columnKey": "Nombre",
+                "columnName": "Nombre"
+            },
+            {
+                "columnKey": "NIF",
+                "columnName": "NIF"
+            },
+            {
+                "columnKey": "Direccion",
+                "columnName": "Direccion"
+            },
+            {
+                "columnKey": "Poblacion",
+                "columnName": "Poblacion"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "CodigoPais",
+                "columnName": "CodigoPais"
+            },
+            {
+                "columnKey": "Telefono1",
+                "columnName": "Telefono1"
+            },
+            {
+                "columnKey": "Telefono2",
+                "columnName": "Telefono2"
+            },
+            {
+                "columnKey": "Movil",
+                "columnName": "Movil"
+            },
+            {
+                "columnKey": "FAX",
+                "columnName": "FAX"
+            },
+            {
+                "columnKey": "Email",
+                "columnName": "Email"
+            },
+            {
+                "columnKey": "FechaAlta",
+                "columnName": "FechaAlta"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "FechaBaja",
+                "columnName": "FechaBaja"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            }
+        ]
+    },
+    {
+        "nomenclator": "FacturasVentasDistribuidor.txt",
+        "label": "Facturas",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "NumFactura",
+                "columnName": "NumFactura"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "FechaFra",
+                "columnName": "FechaFra"
+            },
+            {
+                "columnKey": "ImporteBruto",
+                "columnName": "ImporteBruto"
+            },
+            {
+                "columnKey": "Impuestos",
+                "columnName": "Impuestos"
+            },
+            {
+                "columnKey": "ImporteTotal",
+                "columnName": "ImporteTotal"
+            },
+            {
+                "columnKey": "CodigoMoneda",
+                "columnName": "CodigoMoneda"
+            }
+        ]
+    },
+    {
+        "nomenclator": "LineasFacturasVentasDistribuidor.txt",
+        "label": "Líneas de Facturas",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "NumFactura",
+                "columnName": "NumFactura"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Peso",
+                "columnName": "Peso"
+            },
+            {
+                "columnKey": "UMPeso",
+                "columnName": "UMPeso"
+            },
+            {
+                "columnKey": "Volumen",
+                "columnName": "Volumen"
+            },
+            {
+                "columnKey": "UMVolumen",
+                "columnName": "UMVolumen"
+            },
+            {
+                "columnKey": "PrecioBase",
+                "columnName": "PrecioBase"
+            },
+            {
+                "columnKey": "Descuentos",
+                "columnName": "Descuentos"
+            },
+            {
+                "columnKey": "PrecioBrutoTotal",
+                "columnName": "PrecioBrutoTotal"
+            },
+            {
+                "columnKey": "FechaEntrega",
+                "columnName": "FechaEntrega"
+            },
+            {
+                "columnKey": "Almacen",
+                "columnName": "Almacen"
+            },
+            {
+                "columnKey": "Lote",
+                "columnName": "Lote"
+            },
+            {
+                "columnKey": "FechaCaducidad",
+                "columnName": "FechaCaducidad"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "Direccion",
+                "columnName": "Direccion"
+            },
+            {
+                "columnKey": "Tipo Calle",
+                "columnName": "Tipo Calle"
+            },
+            {
+                "columnKey": "Calle",
+                "columnName": "Calle"
+            },
+            {
+                "columnKey": "Numero",
+                "columnName": "Numero"
+            },
+            {
+                "columnKey": "CodigoPais",
+                "columnName": "CodigoPais"
+            },
+            {
+                "columnKey": "Ruta",
+                "columnName": "Ruta"
+            },
+            {
+                "columnKey": "CodigoComercial",
+                "columnName": "CodigoComercial"
+            },
+            {
+                "columnKey": "EjercicioEntrega",
+                "columnName": "EjercicioEntrega"
+            },
+            {
+                "columnKey": "NumEntrega",
+                "columnName": "NumEntrega"
+            },
+            {
+                "columnKey": "NumLineaEntrega",
+                "columnName": "NumLineaEntrega"
+            },
+            {
+                "columnKey": "CosteDistribuidor",
+                "columnName": "CosteDistribuidor"
+            },
+            {
+                "columnKey": "DocRelacionado",
+                "columnName": "DocRelacionado"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "FechaFra",
+                "columnName": "FechaFra"
+            },
+            {
+                "columnKey": "UM2",
+                "columnName": "UM2"
+            },
+            {
+                "columnKey": "Cantidad2",
+                "columnName": "Cantidad2"
+            },
+            {
+                "columnKey": "PrecioBase2",
+                "columnName": "PrecioBase2"
+            },
+            {
+                "columnKey": "TipoVenta",
+                "columnName": "TipoVenta"
+            },
+            {
+                "columnKey": "MotivoAbono",
+                "columnName": "MotivoAbono"
+            },
+            {
+                "columnKey": "CodigoPromocion",
+                "columnName": "CodigoPromocion"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Cant1",
+                "columnName": "Cant1"
+            },
+            {
+                "columnKey": "Cant2",
+                "columnName": "Cant2"
+            },
+            {
+                "columnKey": "Cant3",
+                "columnName": "Cant3"
+            },
+            {
+                "columnKey": "TipoAcuerdoLiq",
+                "columnName": "TipoAcuerdoLiq"
+            },
+            {
+                "columnKey": "SubtipoAcuerdoLiq",
+                "columnName": "SubtipoAcuerdoLiq"
+            },
+            {
+                "columnKey": "ImporteLiq",
+                "columnName": "ImporteLiq"
+            },
+            {
+                "columnKey": "TipoAcuerdoLiq2",
+                "columnName": "TipoAcuerdoLiq2"
+            },
+            {
+                "columnKey": "SubtipoAcuerdoLiq2",
+                "columnName": "SubtipoAcuerdoLiq2"
+            },
+            {
+                "columnKey": "ImporteLiq2",
+                "columnName": "ImporteLiq2"
+            },
+            {
+                "columnKey": "TipoAcuerdoLiq3",
+                "columnName": "TipoAcuerdoLiq3"
+            },
+            {
+                "columnKey": "SubtipoAcuerdoLiq3",
+                "columnName": "SubtipoAcuerdoLiq3"
+            },
+            {
+                "columnKey": "ImporteLiq3",
+                "columnName": "ImporteLiq3"
+            },
+            {
+                "columnKey": "ValorLibre1Liq",
+                "columnName": "ValorLibre1Liq"
+            },
+            {
+                "columnKey": "ValorLibre2Liq",
+                "columnName": "ValorLibre2Liq"
+            },
+            {
+                "columnKey": "ValorLibre3Liq",
+                "columnName": "ValorLibre3Liq"
+            },
+            {
+                "columnKey": "ValorLibre4Liq",
+                "columnName": "ValorLibre4Liq"
+            },
+            {
+                "columnKey": "ValorLibre5Liq",
+                "columnName": "ValorLibre5Liq"
+            },
+            {
+                "columnKey": "ValorLibre6Liq",
+                "columnName": "ValorLibre6Liq"
+            },
+            {
+                "columnKey": "ValorLibre7Liq",
+                "columnName": "ValorLibre7Liq"
+            },
+            {
+                "columnKey": "ValorLibre8Liq",
+                "columnName": "ValorLibre8Liq"
+            },
+            {
+                "columnKey": "ValorLibre9Liq",
+                "columnName": "ValorLibre9Liq"
+            },
+            {
+                "columnKey": "ValorLibre10Liq",
+                "columnName": "ValorLibre10Liq"
+            },
+            {
+                "columnKey": "ObservacionesLiq",
+                "columnName": "ObservacionesLiq"
+            },
+            {
+                "columnKey": "TipoRegistro",
+                "columnName": "TipoRegistro"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ControlEnviosDistribuidor.txt",
+        "label": "Confirmación de envío",
+        "entity": "distributor",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "TipoDatoEnvio",
+                "columnName": "TipoDatoEnvio"
+            },
+            {
+                "columnKey": "Fabricante",
+                "columnName": "Fabricante"
+            },
+            {
+                "columnKey": "FechaIniDatos",
+                "columnName": "FechaIniDatos"
+            },
+            {
+                "columnKey": "FechaFinDatos",
+                "columnName": "FechaFinDatos"
+            },
+            {
+                "columnKey": "FechaEnvio",
+                "columnName": "FechaEnvio"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ProductosFabricante.txt",
+        "label": "Productos marca propia",
+        "entity": "manufacturer",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Descripcion",
+                "columnName": "Descripcion"
+            },
+            {
+                "columnKey": "Abreviatura",
+                "columnName": "Abreviatura"
+            },
+            {
+                "columnKey": "DescrLarga",
+                "columnName": "DescrLarga"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "EAN13",
+                "columnName": "EAN13"
+            },
+            {
+                "columnKey": "PesoNeto",
+                "columnName": "PesoNeto"
+            },
+            {
+                "columnKey": "PesoNetoEscurrido",
+                "columnName": "PesoNetoEscurrido"
+            },
+            {
+                "columnKey": "PesoBruto",
+                "columnName": "PesoBruto"
+            },
+            {
+                "columnKey": "UMPeso",
+                "columnName": "UMPeso"
+            },
+            {
+                "columnKey": "Longitud",
+                "columnName": "Longitud"
+            },
+            {
+                "columnKey": "Ancho",
+                "columnName": "Ancho"
+            },
+            {
+                "columnKey": "Alto",
+                "columnName": "Alto"
+            },
+            {
+                "columnKey": "Volumen",
+                "columnName": "Volumen"
+            },
+            {
+                "columnKey": "UMLongitud",
+                "columnName": "UMLongitud"
+            },
+            {
+                "columnKey": "UMAncho",
+                "columnName": "UMAncho"
+            },
+            {
+                "columnKey": "UMAlto",
+                "columnName": "UMAlto"
+            },
+            {
+                "columnKey": "UMVolumen",
+                "columnName": "UMVolumen"
+            },
+            {
+                "columnKey": "InstrucManipulacion",
+                "columnName": "InstrucManipulacion"
+            },
+            {
+                "columnKey": "Empresa",
+                "columnName": "Empresa"
+            },
+            {
+                "columnKey": "CEP",
+                "columnName": "CEP"
+            },
+            {
+                "columnKey": "PartidaArancelaria",
+                "columnName": "PartidaArancelaria"
+            },
+            {
+                "columnKey": "Tarifa",
+                "columnName": "Tarifa"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Clasificacion4",
+                "columnName": "Clasificacion4"
+            },
+            {
+                "columnKey": "Clasificacion5",
+                "columnName": "Clasificacion5"
+            },
+            {
+                "columnKey": "Clasificacion6",
+                "columnName": "Clasificacion6"
+            },
+            {
+                "columnKey": "Clasificacion7",
+                "columnName": "Clasificacion7"
+            },
+            {
+                "columnKey": "Clasificacion8",
+                "columnName": "Clasificacion8"
+            },
+            {
+                "columnKey": "Clasificacion9",
+                "columnName": "Clasificacion9"
+            },
+            {
+                "columnKey": "Clasificacion10",
+                "columnName": "Clasificacion10"
+            },
+            {
+                "columnKey": "Clasificacion11 (reservado)",
+                "columnName": "Clasificacion11 (reservado)"
+            },
+            {
+                "columnKey": "Clasificacion12 (reservado)",
+                "columnName": "Clasificacion12 (reservado)"
+            },
+            {
+                "columnKey": "Clasificacion13 (reservado)",
+                "columnName": "Clasificacion13 (reservado)"
+            },
+            {
+                "columnKey": "Clasificacion14 (reservado)",
+                "columnName": "Clasificacion14 (reservado)"
+            },
+            {
+                "columnKey": "Jerarquia",
+                "columnName": "Jerarquia"
+            },
+            {
+                "columnKey": "FechaBloqueo",
+                "columnName": "FechaBloqueo"
+            },
+            {
+                "columnKey": "FechaBaja",
+                "columnName": "FechaBaja"
+            },
+            {
+                "columnKey": "CodigoProductoAlt",
+                "columnName": "CodigoProductoAlt"
+            },
+            {
+                "columnKey": "IndCalculaCantidades",
+                "columnName": "IndCalculaCantidades"
+            },
+            {
+                "columnKey": "IndFijaUMGestion",
+                "columnName": "IndFijaUMGestion"
+            },
+            {
+                "columnKey": "Clasificacion15",
+                "columnName": "Clasificacion15"
+            },
+            {
+                "columnKey": "Clasificacion16",
+                "columnName": "Clasificacion16"
+            },
+            {
+                "columnKey": "Clasificacion17",
+                "columnName": "Clasificacion17"
+            },
+            {
+                "columnKey": "Clasificacion18",
+                "columnName": "Clasificacion18"
+            },
+            {
+                "columnKey": "Clasificacion19",
+                "columnName": "Clasificacion19"
+            },
+            {
+                "columnKey": "Clasificacion20",
+                "columnName": "Clasificacion20"
+            },
+            {
+                "columnKey": "Clasificacion21",
+                "columnName": "Clasificacion21"
+            },
+            {
+                "columnKey": "Clasificacion22",
+                "columnName": "Clasificacion22"
+            },
+            {
+                "columnKey": "Clasificacion23",
+                "columnName": "Clasificacion23"
+            },
+            {
+                "columnKey": "Clasificacion24",
+                "columnName": "Clasificacion24"
+            },
+            {
+                "columnKey": "Clasificacion25",
+                "columnName": "Clasificacion25"
+            },
+            {
+                "columnKey": "Clasificacion26",
+                "columnName": "Clasificacion26"
+            },
+            {
+                "columnKey": "Clasificacion27",
+                "columnName": "Clasificacion27"
+            },
+            {
+                "columnKey": "Clasificacion28",
+                "columnName": "Clasificacion28"
+            },
+            {
+                "columnKey": "Clasificacion29",
+                "columnName": "Clasificacion29"
+            },
+            {
+                "columnKey": "Clasificacion30",
+                "columnName": "Clasificacion30"
+            },
+            {
+                "columnKey": "EsKit",
+                "columnName": "EsKit"
+            },
+            {
+                "columnKey": "CodigoProductoAgrup",
+                "columnName": "CodigoProductoAgrup"
+            },
+            {
+                "columnKey": "PropietarioProducto",
+                "columnName": "PropietarioProducto"
+            },
+            {
+                "columnKey": "EsTotalizador",
+                "columnName": "EsTotalizador"
+            },
+            {
+                "columnKey": "NivelProducto",
+                "columnName": "NivelProducto"
+            },
+            {
+                "columnKey": "UMEstadistica1",
+                "columnName": "UMEstadistica1"
+            },
+            {
+                "columnKey": "UMEstadistica2",
+                "columnName": "UMEstadistica2"
+            },
+            {
+                "columnKey": "UMEstadistica3",
+                "columnName": "UMEstadistica3"
+            },
+            {
+                "columnKey": "PuntoVerde",
+                "columnName": "PuntoVerde"
+            },
+            {
+                "columnKey": "UMPuntoVerde",
+                "columnName": "UMPuntoVerde"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            },
+            {
+                "columnKey": "DescripcionAdd",
+                "columnName": "DescripcionAdd"
+            },
+            {
+                "columnKey": "DescripcionAdd2",
+                "columnName": "DescripcionAdd2"
+            },
+            {
+                "columnKey": "Clasificacion31",
+                "columnName": "Clasificacion31"
+            },
+            {
+                "columnKey": "Clasificacion32",
+                "columnName": "Clasificacion32"
+            },
+            {
+                "columnKey": "Clasificacion33",
+                "columnName": "Clasificacion33"
+            },
+            {
+                "columnKey": "Clasificacion34",
+                "columnName": "Clasificacion34"
+            },
+            {
+                "columnKey": "Clasificacion35",
+                "columnName": "Clasificacion35"
+            },
+            {
+                "columnKey": "Clasificacion36",
+                "columnName": "Clasificacion36"
+            },
+            {
+                "columnKey": "Clasificacion37",
+                "columnName": "Clasificacion37"
+            },
+            {
+                "columnKey": "Clasificacion38",
+                "columnName": "Clasificacion38"
+            },
+            {
+                "columnKey": "Clasificacion39",
+                "columnName": "Clasificacion39"
+            },
+            {
+                "columnKey": "Clasificacion40",
+                "columnName": "Clasificacion40"
+            },
+            {
+                "columnKey": "Clasificacion41",
+                "columnName": "Clasificacion41"
+            },
+            {
+                "columnKey": "Clasificacion42",
+                "columnName": "Clasificacion42"
+            },
+            {
+                "columnKey": "Clasificacion43",
+                "columnName": "Clasificacion43"
+            },
+            {
+                "columnKey": "Clasificacion44",
+                "columnName": "Clasificacion44"
+            },
+            {
+                "columnKey": "Clasificacion45",
+                "columnName": "Clasificacion45"
+            },
+            {
+                "columnKey": "Clasificacion46",
+                "columnName": "Clasificacion46"
+            },
+            {
+                "columnKey": "Clasificacion47",
+                "columnName": "Clasificacion47"
+            },
+            {
+                "columnKey": "Clasificacion48",
+                "columnName": "Clasificacion48"
+            },
+            {
+                "columnKey": "Clasificacion49",
+                "columnName": "Clasificacion49"
+            },
+            {
+                "columnKey": "Clasificacion50",
+                "columnName": "Clasificacion50"
+            },
+            {
+                "columnKey": "ImagenPrincipal",
+                "columnName": "ImagenPrincipal"
+            },
+            {
+                "columnKey": "Url",
+                "columnName": "Url"
+            },
+            {
+                "columnKey": "Nutrientes",
+                "columnName": "Nutrientes"
+            },
+            {
+                "columnKey": "Alergenos",
+                "columnName": "Alergenos"
+            },
+            {
+                "columnKey": "Ingredientes",
+                "columnName": "Ingredientes"
+            },
+            {
+                "columnKey": "Contenidos",
+                "columnName": "Contenidos"
+            },
+            {
+                "columnKey": "Atributos",
+                "columnName": "Atributos"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ProductosUMFabricante.txt",
+        "label": "Conversión entre unidades de medida",
+        "entity": "manufacturer",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "UMAlternativa",
+                "columnName": "UMAlternativa"
+            },
+            {
+                "columnKey": "CantidadBase",
+                "columnName": "CantidadBase"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "EAN13",
+                "columnName": "EAN13"
+            },
+            {
+                "columnKey": "TipoEAN",
+                "columnName": "TipoEAN"
+            },
+            {
+                "columnKey": "Longitud",
+                "columnName": "Longitud"
+            },
+            {
+                "columnKey": "Ancho",
+                "columnName": "Ancho"
+            },
+            {
+                "columnKey": "Alto",
+                "columnName": "Alto"
+            },
+            {
+                "columnKey": "Volumen",
+                "columnName": "Volumen"
+            },
+            {
+                "columnKey": "Peso",
+                "columnName": "Peso"
+            },
+            {
+                "columnKey": "UMLongitud",
+                "columnName": "UMLongitud"
+            },
+            {
+                "columnKey": "UMAncho",
+                "columnName": "UMAncho"
+            },
+            {
+                "columnKey": "UMAlto",
+                "columnName": "UMAlto"
+            },
+            {
+                "columnKey": "UMVolumen",
+                "columnName": "UMVolumen"
+            },
+            {
+                "columnKey": "UMPeso",
+                "columnName": "UMPeso"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ClientesFinalesFabricante.txt",
+        "label": "Clientes directos",
+        "entity": "manufacturer",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "Nombre",
+                "columnName": "Nombre"
+            },
+            {
+                "columnKey": "RazonSocial",
+                "columnName": "RazonSocial"
+            },
+            {
+                "columnKey": "CIF",
+                "columnName": "CIF"
+            },
+            {
+                "columnKey": "Direccion",
+                "columnName": "Direccion"
+            },
+            {
+                "columnKey": "Tipo Calle",
+                "columnName": "Tipo Calle"
+            },
+            {
+                "columnKey": "Calle",
+                "columnName": "Calle"
+            },
+            {
+                "columnKey": "Numero",
+                "columnName": "Numero"
+            },
+            {
+                "columnKey": "Poblacion",
+                "columnName": "Poblacion"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "CodigoPais",
+                "columnName": "CodigoPais"
+            },
+            {
+                "columnKey": "PaginaWEB",
+                "columnName": "PaginaWEB"
+            },
+            {
+                "columnKey": "Telefono1",
+                "columnName": "Telefono1"
+            },
+            {
+                "columnKey": "Telefono2",
+                "columnName": "Telefono2"
+            },
+            {
+                "columnKey": "FAX",
+                "columnName": "FAX"
+            },
+            {
+                "columnKey": "Email",
+                "columnName": "Email"
+            },
+            {
+                "columnKey": "PersonaContacto",
+                "columnName": "PersonaContacto"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "Clasificacion1 (reservado)",
+                "columnName": "Clasificacion1 (reservado)"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Clasificacion4",
+                "columnName": "Clasificacion4"
+            },
+            {
+                "columnKey": "Clasificacion5",
+                "columnName": "Clasificacion5"
+            },
+            {
+                "columnKey": "Clasificacion6",
+                "columnName": "Clasificacion6"
+            },
+            {
+                "columnKey": "Clasificacion7",
+                "columnName": "Clasificacion7"
+            },
+            {
+                "columnKey": "CodigoMoneda",
+                "columnName": "CodigoMoneda"
+            },
+            {
+                "columnKey": "PuntoOperacional",
+                "columnName": "PuntoOperacional"
+            },
+            {
+                "columnKey": "Jerarquia",
+                "columnName": "Jerarquia"
+            },
+            {
+                "columnKey": "CodigoDistribuidor",
+                "columnName": "CodigoDistribuidor"
+            },
+            {
+                "columnKey": "CodigoClienteDist",
+                "columnName": "CodigoClienteDist"
+            },
+            {
+                "columnKey": "(Libre1) NumPedOblig",
+                "columnName": "(Libre1) NumPedOblig"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "(Libre4) FuncIntr",
+                "columnName": "(Libre4) FuncIntr"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            },
+            {
+                "columnKey": "CoordX",
+                "columnName": "CoordX"
+            },
+            {
+                "columnKey": "CoordY",
+                "columnName": "CoordY"
+            },
+            {
+                "columnKey": "CodigoClienteAlt",
+                "columnName": "CodigoClienteAlt"
+            },
+            {
+                "columnKey": "EsSolicitante",
+                "columnName": "EsSolicitante"
+            },
+            {
+                "columnKey": "EsPdV",
+                "columnName": "EsPdV"
+            },
+            {
+                "columnKey": "Solicitante",
+                "columnName": "Solicitante"
+            },
+            {
+                "columnKey": "AreaNielsen",
+                "columnName": "AreaNielsen"
+            },
+            {
+                "columnKey": "CanalNielsen",
+                "columnName": "CanalNielsen"
+            },
+            {
+                "columnKey": "Clasificacion8",
+                "columnName": "Clasificacion8"
+            },
+            {
+                "columnKey": "Clasificacion9",
+                "columnName": "Clasificacion9"
+            },
+            {
+                "columnKey": "Clasificacion10",
+                "columnName": "Clasificacion10"
+            },
+            {
+                "columnKey": "Clasificacion11",
+                "columnName": "Clasificacion11"
+            },
+            {
+                "columnKey": "Clasificacion12",
+                "columnName": "Clasificacion12"
+            },
+            {
+                "columnKey": "Clasificacion13",
+                "columnName": "Clasificacion13"
+            },
+            {
+                "columnKey": "Clasificacion14",
+                "columnName": "Clasificacion14"
+            },
+            {
+                "columnKey": "Clasificacion15",
+                "columnName": "Clasificacion15"
+            },
+            {
+                "columnKey": "Clasificacion16",
+                "columnName": "Clasificacion16"
+            },
+            {
+                "columnKey": "Clasificacion17",
+                "columnName": "Clasificacion17"
+            },
+            {
+                "columnKey": "Clasificacion18",
+                "columnName": "Clasificacion18"
+            },
+            {
+                "columnKey": "Clasificacion19",
+                "columnName": "Clasificacion19"
+            },
+            {
+                "columnKey": "Clasificacion20",
+                "columnName": "Clasificacion20"
+            },
+            {
+                "columnKey": "Clasificacion21",
+                "columnName": "Clasificacion21"
+            },
+            {
+                "columnKey": "Clasificacion22",
+                "columnName": "Clasificacion22"
+            },
+            {
+                "columnKey": "Clasificacion23",
+                "columnName": "Clasificacion23"
+            },
+            {
+                "columnKey": "Clasificacion24",
+                "columnName": "Clasificacion24"
+            },
+            {
+                "columnKey": "Clasificacion25",
+                "columnName": "Clasificacion25"
+            },
+            {
+                "columnKey": "Clasificacion26",
+                "columnName": "Clasificacion26"
+            },
+            {
+                "columnKey": "Clasificacion27",
+                "columnName": "Clasificacion27"
+            },
+            {
+                "columnKey": "Clasificacion28",
+                "columnName": "Clasificacion28"
+            },
+            {
+                "columnKey": "Clasificacion29",
+                "columnName": "Clasificacion29"
+            },
+            {
+                "columnKey": "Clasificacion30",
+                "columnName": "Clasificacion30"
+            },
+            {
+                "columnKey": "PotencialCompra1",
+                "columnName": "PotencialCompra1"
+            },
+            {
+                "columnKey": "PotencialCompra2",
+                "columnName": "PotencialCompra2"
+            },
+            {
+                "columnKey": "PotencialCompra3",
+                "columnName": "PotencialCompra3"
+            },
+            {
+                "columnKey": "PotencialCompra4",
+                "columnName": "PotencialCompra4"
+            },
+            {
+                "columnKey": "PotencialCompra5",
+                "columnName": "PotencialCompra5"
+            },
+            {
+                "columnKey": "Clasificacion31",
+                "columnName": "Clasificacion31"
+            },
+            {
+                "columnKey": "Clasificacion32",
+                "columnName": "Clasificacion32"
+            },
+            {
+                "columnKey": "Clasificacion33",
+                "columnName": "Clasificacion33"
+            },
+            {
+                "columnKey": "Clasificacion34",
+                "columnName": "Clasificacion34"
+            },
+            {
+                "columnKey": "Clasificacion35",
+                "columnName": "Clasificacion35"
+            },
+            {
+                "columnKey": "Clasificacion36",
+                "columnName": "Clasificacion36"
+            },
+            {
+                "columnKey": "Clasificacion37",
+                "columnName": "Clasificacion37"
+            },
+            {
+                "columnKey": "Clasificacion38",
+                "columnName": "Clasificacion38"
+            },
+            {
+                "columnKey": "Clasificacion39",
+                "columnName": "Clasificacion39"
+            },
+            {
+                "columnKey": "Clasificacion40",
+                "columnName": "Clasificacion40"
+            },
+            {
+                "columnKey": "Clasificacion41",
+                "columnName": "Clasificacion41"
+            },
+            {
+                "columnKey": "Clasificacion42",
+                "columnName": "Clasificacion42"
+            },
+            {
+                "columnKey": "Clasificacion43",
+                "columnName": "Clasificacion43"
+            },
+            {
+                "columnKey": "Clasificacion44",
+                "columnName": "Clasificacion44"
+            },
+            {
+                "columnKey": "Clasificacion45",
+                "columnName": "Clasificacion45"
+            },
+            {
+                "columnKey": "Clasificacion46",
+                "columnName": "Clasificacion46"
+            },
+            {
+                "columnKey": "Clasificacion47",
+                "columnName": "Clasificacion47"
+            },
+            {
+                "columnKey": "Clasificacion48",
+                "columnName": "Clasificacion48"
+            },
+            {
+                "columnKey": "Clasificacion49",
+                "columnName": "Clasificacion49"
+            },
+            {
+                "columnKey": "Clasificacion50",
+                "columnName": "Clasificacion50"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ClasificacionesFabricante.txt",
+        "label": "Clasificaciones",
+        "entity": "manufacturer",
+        "priority": true,
+        "columns": [
+            {
+                "columnKey": "EntidadClasificada",
+                "columnName": "EntidadClasificada"
+            },
+            {
+                "columnKey": "Codigo",
+                "columnName": "Codigo"
+            },
+            {
+                "columnKey": "Descripcion",
+                "columnName": "Descripcion"
+            },
+            {
+                "columnKey": "CodigoInterno",
+                "columnName": "CodigoInterno"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            }
+        ]
+    },
+    {
+        "nomenclator": "EntregasVentasDistribuidor.txt",
+        "label": "Entregas",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumEntrega",
+                "columnName": "NumEntrega"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "FechaEntrega",
+                "columnName": "FechaEntrega"
+            },
+            {
+                "columnKey": "DireccionEntrega",
+                "columnName": "DireccionEntrega"
+            },
+            {
+                "columnKey": "Tipo Calle",
+                "columnName": "Tipo Calle"
+            },
+            {
+                "columnKey": "Calle",
+                "columnName": "Calle"
+            },
+            {
+                "columnKey": "Numero",
+                "columnName": "Numero"
+            },
+            {
+                "columnKey": "Población",
+                "columnName": "Población"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "Ruta",
+                "columnName": "Ruta"
+            },
+            {
+                "columnKey": "CodigoComercial",
+                "columnName": "CodigoComercial"
+            },
+            {
+                "columnKey": "CodigoMoneda",
+                "columnName": "CodigoMoneda"
+            },
+            {
+                "columnKey": "Transportista",
+                "columnName": "Transportista"
+            },
+            {
+                "columnKey": "DocRelacionado",
+                "columnName": "DocRelacionado"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            }
+        ]
+    },
+    {
+        "nomenclator": "LineasEntregasVentasDistribuidor.txt",
+        "label": "Líneas de entregas",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumEntrega",
+                "columnName": "NumEntrega"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "FechaEntrega",
+                "columnName": "FechaEntrega"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Peso",
+                "columnName": "Peso"
+            },
+            {
+                "columnKey": "UMPeso",
+                "columnName": "UMPeso"
+            },
+            {
+                "columnKey": "Volumen",
+                "columnName": "Volumen"
+            },
+            {
+                "columnKey": "UMVolumen",
+                "columnName": "UMVolumen"
+            },
+            {
+                "columnKey": "PrecioBase",
+                "columnName": "PrecioBase"
+            },
+            {
+                "columnKey": "Descuentos",
+                "columnName": "Descuentos"
+            },
+            {
+                "columnKey": "PrecioBrutoTotal",
+                "columnName": "PrecioBrutoTotal"
+            },
+            {
+                "columnKey": "CosteDistribuidor",
+                "columnName": "CosteDistribuidor"
+            },
+            {
+                "columnKey": "Lote",
+                "columnName": "Lote"
+            },
+            {
+                "columnKey": "Almacen",
+                "columnName": "Almacen"
+            },
+            {
+                "columnKey": "FechaCaducidad",
+                "columnName": "FechaCaducidad"
+            },
+            {
+                "columnKey": "DocRelacionado",
+                "columnName": "DocRelacionado"
+            }
+        ]
+    },
+    {
+        "nomenclator": "PedidosVentasDistribuidor.txt",
+        "label": "Pedidos",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumPedido",
+                "columnName": "NumPedido"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "TipoPedido",
+                "columnName": "TipoPedido"
+            },
+            {
+                "columnKey": "FechaPedido",
+                "columnName": "FechaPedido"
+            },
+            {
+                "columnKey": "FechaEntregaSolic",
+                "columnName": "FechaEntregaSolic"
+            },
+            {
+                "columnKey": "FechaEntregaCompr",
+                "columnName": "FechaEntregaCompr"
+            },
+            {
+                "columnKey": "DireccionEntrega",
+                "columnName": "DireccionEntrega"
+            },
+            {
+                "columnKey": "TipoCalle",
+                "columnName": "TipoCalle"
+            },
+            {
+                "columnKey": "Calle",
+                "columnName": "Calle"
+            },
+            {
+                "columnKey": "Numero",
+                "columnName": "Numero"
+            },
+            {
+                "columnKey": "Población",
+                "columnName": "Población"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "Ruta",
+                "columnName": "Ruta"
+            },
+            {
+                "columnKey": "NumPedidoCliente",
+                "columnName": "NumPedidoCliente"
+            },
+            {
+                "columnKey": "InfoAdicional",
+                "columnName": "InfoAdicional"
+            },
+            {
+                "columnKey": "CodigoMoneda",
+                "columnName": "CodigoMoneda"
+            },
+            {
+                "columnKey": "CondicionesEntrega",
+                "columnName": "CondicionesEntrega"
+            },
+            {
+                "columnKey": "Transportista",
+                "columnName": "Transportista"
+            },
+            {
+                "columnKey": "ContactoDistribuidor",
+                "columnName": "ContactoDistribuidor"
+            },
+            {
+                "columnKey": "ContactoCliente",
+                "columnName": "ContactoCliente"
+            },
+            {
+                "columnKey": "ContactoEntrega",
+                "columnName": "ContactoEntrega"
+            },
+            {
+                "columnKey": "FormaPago",
+                "columnName": "FormaPago"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            }
+        ]
+    },
+    {
+        "nomenclator": "LineasPedidosVentasDistribuidor.txt",
+        "label": "Líneas de pedidos",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumPedido",
+                "columnName": "NumPedido"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "TipoLinea",
+                "columnName": "TipoLinea"
+            },
+            {
+                "columnKey": "NumLineaPadre",
+                "columnName": "NumLineaPadre"
+            },
+            {
+                "columnKey": "FechaEntregaSolic",
+                "columnName": "FechaEntregaSolic"
+            },
+            {
+                "columnKey": "FechaEntregaComp",
+                "columnName": "FechaEntregaComp"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "DescripcionProducto",
+                "columnName": "DescripcionProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Peso",
+                "columnName": "Peso"
+            },
+            {
+                "columnKey": "UMPeso",
+                "columnName": "UMPeso"
+            },
+            {
+                "columnKey": "Volumen",
+                "columnName": "Volumen"
+            },
+            {
+                "columnKey": "UMVolumen",
+                "columnName": "UMVolumen"
+            },
+            {
+                "columnKey": "PrecioBase",
+                "columnName": "PrecioBase"
+            },
+            {
+                "columnKey": "Descuentos",
+                "columnName": "Descuentos"
+            },
+            {
+                "columnKey": "PrecioBrutoTotal",
+                "columnName": "PrecioBrutoTotal"
+            },
+            {
+                "columnKey": "CosteDistribuidor",
+                "columnName": "CosteDistribuidor"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "AlbaranesDistribuidor.txt",
+        "label": "Albaranes",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumAlbaran",
+                "columnName": "NumAlbaran"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "CodigoFabricante",
+                "columnName": "CodigoFabricante"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "TipoLinea",
+                "columnName": "TipoLinea"
+            },
+            {
+                "columnKey": "NumLineaPadre",
+                "columnName": "NumLineaPadre"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Peso",
+                "columnName": "Peso"
+            },
+            {
+                "columnKey": "UMPeso",
+                "columnName": "UMPeso"
+            },
+            {
+                "columnKey": "Volumen",
+                "columnName": "Volumen"
+            },
+            {
+                "columnKey": "UMVolumen",
+                "columnName": "UMVolumen"
+            },
+            {
+                "columnKey": "PrecioBase",
+                "columnName": "PrecioBase"
+            },
+            {
+                "columnKey": "Descuentos",
+                "columnName": "Descuentos"
+            },
+            {
+                "columnKey": "PrecioBrutoTotal",
+                "columnName": "PrecioBrutoTotal"
+            },
+            {
+                "columnKey": "CosteDistribuidor",
+                "columnName": "CosteDistribuidor"
+            },
+            {
+                "columnKey": "DocRelacionado",
+                "columnName": "DocRelacionado"
+            },
+            {
+                "columnKey": "FechaPedido",
+                "columnName": "FechaPedido"
+            },
+            {
+                "columnKey": "FechaEntrega",
+                "columnName": "FechaEntrega"
+            },
+            {
+                "columnKey": "NumPedidoCliente",
+                "columnName": "NumPedidoCliente"
+            },
+            {
+                "columnKey": "IndPromo",
+                "columnName": "IndPromo"
+            },
+            {
+                "columnKey": "TipoPromo",
+                "columnName": "TipoPromo"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Lote",
+                "columnName": "Lote"
+            },
+            {
+                "columnKey": "FechaCaducidad",
+                "columnName": "FechaCaducidad"
+            }
+        ]
+    },
+    {
+        "nomenclator": "AlbaranesLineasDistribuidor.txt",
+        "label": "Líneas de albaranes",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumAlbaran",
+                "columnName": "NumAlbaran"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "CodigoFabricante",
+                "columnName": "CodigoFabricante"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "TipoLinea",
+                "columnName": "TipoLinea"
+            },
+            {
+                "columnKey": "NumLineaPadre",
+                "columnName": "NumLineaPadre"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Peso",
+                "columnName": "Peso"
+            },
+            {
+                "columnKey": "UMPeso",
+                "columnName": "UMPeso"
+            },
+            {
+                "columnKey": "Volumen",
+                "columnName": "Volumen"
+            },
+            {
+                "columnKey": "UMVolumen",
+                "columnName": "UMVolumen"
+            },
+            {
+                "columnKey": "PrecioBase",
+                "columnName": "PrecioBase"
+            },
+            {
+                "columnKey": "Descuentos",
+                "columnName": "Descuentos"
+            },
+            {
+                "columnKey": "PrecioBrutoTotal",
+                "columnName": "PrecioBrutoTotal"
+            },
+            {
+                "columnKey": "CosteDistribuidor",
+                "columnName": "CosteDistribuidor"
+            },
+            {
+                "columnKey": "DocRelacionado",
+                "columnName": "DocRelacionado"
+            },
+            {
+                "columnKey": "FechaPedido",
+                "columnName": "FechaPedido"
+            },
+            {
+                "columnKey": "FechaEntrega",
+                "columnName": "FechaEntrega"
+            },
+            {
+                "columnKey": "NumPedidoCliente",
+                "columnName": "NumPedidoCliente"
+            },
+            {
+                "columnKey": "IndPromo",
+                "columnName": "IndPromo"
+            },
+            {
+                "columnKey": "TipoPromo",
+                "columnName": "TipoPromo"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Lote",
+                "columnName": "Lote"
+            },
+            {
+                "columnKey": "FechaCaducidad",
+                "columnName": "FechaCaducidad"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ReaprovisionamientosDistribuidor.txt",
+        "label": "Reaprovisionamientos",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumPedido",
+                "columnName": "NumPedido"
+            },
+            {
+                "columnKey": "CodigoFabricante",
+                "columnName": "CodigoFabricante"
+            },
+            {
+                "columnKey": "FechaPedido",
+                "columnName": "FechaPedido"
+            },
+            {
+                "columnKey": "FechaEntrega",
+                "columnName": "FechaEntrega"
+            },
+            {
+                "columnKey": "FechaEntregaComp",
+                "columnName": "FechaEntregaComp"
+            },
+            {
+                "columnKey": "TipoReaprovisionamiento",
+                "columnName": "TipoReaprovisionamiento"
+            },
+            {
+                "columnKey": "TipoPedido",
+                "columnName": "TipoPedido"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "DireccionEntrega",
+                "columnName": "DireccionEntrega"
+            },
+            {
+                "columnKey": "Tipo Calle",
+                "columnName": "Tipo Calle"
+            },
+            {
+                "columnKey": "Calle",
+                "columnName": "Calle"
+            },
+            {
+                "columnKey": "Numero",
+                "columnName": "Numero"
+            },
+            {
+                "columnKey": "Poblacion",
+                "columnName": "Poblacion"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "NumPedidoCliente",
+                "columnName": "NumPedidoCliente"
+            },
+            {
+                "columnKey": "ReferenciaFabricante",
+                "columnName": "ReferenciaFabricante"
+            },
+            {
+                "columnKey": "InfoAdicional",
+                "columnName": "InfoAdicional"
+            },
+            {
+                "columnKey": "ContactoDistribuidor",
+                "columnName": "ContactoDistribuidor"
+            },
+            {
+                "columnKey": "ContactoFabricante",
+                "columnName": "ContactoFabricante"
+            },
+            {
+                "columnKey": "IndRecogerEnvases",
+                "columnName": "IndRecogerEnvases"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            },
+            {
+                "columnKey": "NumPedido",
+                "columnName": "NumPedido"
+            },
+            {
+                "columnKey": "CodigoFabricante",
+                "columnName": "CodigoFabricante"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "TipoLinea",
+                "columnName": "TipoLinea"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "StocksDistribuidor.txt",
+        "label": "Stocks",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoAlmacen",
+                "columnName": "CodigoAlmacen"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "StatusLote",
+                "columnName": "StatusLote"
+            },
+            {
+                "columnKey": "Lote",
+                "columnName": "Lote"
+            },
+            {
+                "columnKey": "FechaStock",
+                "columnName": "FechaStock"
+            },
+            {
+                "columnKey": "FechaCaducidad",
+                "columnName": "FechaCaducidad"
+            },
+            {
+                "columnKey": "DescProducto",
+                "columnName": "DescProducto"
+            },
+            {
+                "columnKey": "Fabricante",
+                "columnName": "Fabricante"
+            },
+            {
+                "columnKey": "CodigoProdFab",
+                "columnName": "CodigoProdFab"
+            }
+        ]
+    },
+    {
+        "nomenclator": "StocksClienteDistribuidor.txt",
+        "label": "Stocks de expositores",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoAlmacen",
+                "columnName": "CodigoAlmacen"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "FechaStock",
+                "columnName": "FechaStock"
+            },
+            {
+                "columnKey": "FechaDeposito",
+                "columnName": "FechaDeposito"
+            }
+        ]
+    },
+    {
+        "nomenclator": "UsuariosFabricante.txt",
+        "label": "Usuarios",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoUsuario",
+                "columnName": "CodigoUsuario"
+            },
+            {
+                "columnKey": "Nombre",
+                "columnName": "Nombre"
+            },
+            {
+                "columnKey": "Apellidos",
+                "columnName": "Apellidos"
+            },
+            {
+                "columnKey": "Telefono1",
+                "columnName": "Telefono1"
+            },
+            {
+                "columnKey": "Telefono2",
+                "columnName": "Telefono2"
+            },
+            {
+                "columnKey": "Movil",
+                "columnName": "Movil"
+            },
+            {
+                "columnKey": "FAX",
+                "columnName": "FAX"
+            },
+            {
+                "columnKey": "Email",
+                "columnName": "Email"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "Idioma",
+                "columnName": "Idioma"
+            }
+        ]
+    },
+    {
+        "nomenclator": "DistribuidoresFabricante.txt",
+        "label": "Distribuidores",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoDistribuidor",
+                "columnName": "CodigoDistribuidor"
+            },
+            {
+                "columnKey": "Nombre",
+                "columnName": "Nombre"
+            },
+            {
+                "columnKey": "CIF",
+                "columnName": "CIF"
+            },
+            {
+                "columnKey": "Direccion",
+                "columnName": "Direccion"
+            },
+            {
+                "columnKey": "Poblacion",
+                "columnName": "Poblacion"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "CodigoPais",
+                "columnName": "CodigoPais"
+            },
+            {
+                "columnKey": "PaginaWeb",
+                "columnName": "PaginaWeb"
+            },
+            {
+                "columnKey": "Telefono1",
+                "columnName": "Telefono1"
+            },
+            {
+                "columnKey": "Telefono2",
+                "columnName": "Telefono2"
+            },
+            {
+                "columnKey": "FAX",
+                "columnName": "FAX"
+            },
+            {
+                "columnKey": "Email",
+                "columnName": "Email"
+            },
+            {
+                "columnKey": "CodigoMoneda",
+                "columnName": "CodigoMoneda"
+            },
+            {
+                "columnKey": "PuntoOperacional",
+                "columnName": "PuntoOperacional"
+            },
+            {
+                "columnKey": "GrupoImpuestos",
+                "columnName": "GrupoImpuestos"
+            },
+            {
+                "columnKey": "CodigoComercial",
+                "columnName": "CodigoComercial"
+            },
+            {
+                "columnKey": "Idioma",
+                "columnName": "Idioma"
+            },
+            {
+                "columnKey": "PagoTransporte",
+                "columnName": "PagoTransporte"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Clasificacion4",
+                "columnName": "Clasificacion4"
+            },
+            {
+                "columnKey": "Clasificacion5",
+                "columnName": "Clasificacion5"
+            },
+            {
+                "columnKey": "Clasificacion6",
+                "columnName": "Clasificacion6"
+            },
+            {
+                "columnKey": "Clasificacion7",
+                "columnName": "Clasificacion7"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "EmpresasProveedorasAgente.txt",
+        "label": "Empresas",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "Empresa",
+                "columnName": "Empresa"
+            },
+            {
+                "columnKey": "Nombre",
+                "columnName": "Nombre"
+            },
+            {
+                "columnKey": "CIF",
+                "columnName": "CIF"
+            },
+            {
+                "columnKey": "Direccion",
+                "columnName": "Direccion"
+            },
+            {
+                "columnKey": "Poblacion",
+                "columnName": "Poblacion"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "CodigoPais",
+                "columnName": "CodigoPais"
+            },
+            {
+                "columnKey": "PaginaWeb",
+                "columnName": "PaginaWeb"
+            },
+            {
+                "columnKey": "Telefono1",
+                "columnName": "Telefono1"
+            },
+            {
+                "columnKey": "Telefono2",
+                "columnName": "Telefono2"
+            },
+            {
+                "columnKey": "FAX",
+                "columnName": "FAX"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            },
+            {
+                "columnKey": "PuntoOperacional",
+                "columnName": "PuntoOperacional"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ProductosCompetidoresFabricante.txt",
+        "label": "Productos competencia",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "SetCompetitivo",
+                "columnName": "SetCompetitivo"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            }
+        ]
+    },
+    {
+        "nomenclator": "JerarquiasFabricante.txt",
+        "label": "Jerarquías de clientes",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoClienteHijo",
+                "columnName": "CodigoClienteHijo"
+            },
+            {
+                "columnKey": "CodigoClientePadre",
+                "columnName": "CodigoClientePadre"
+            },
+            {
+                "columnKey": "NombreClientePadre",
+                "columnName": "NombreClientePadre"
+            },
+            {
+                "columnKey": "NivClienteHijo",
+                "columnName": "NivClienteHijo"
+            },
+            {
+                "columnKey": "NivClientePadre",
+                "columnName": "NivClientePadre"
+            },
+            {
+                "columnKey": "FechaIniVigencia",
+                "columnName": "FechaIniVigencia"
+            },
+            {
+                "columnKey": "FechaFinVigencia",
+                "columnName": "FechaFinVigencia"
+            },
+            {
+                "columnKey": "TipoJerarquia",
+                "columnName": "TipoJerarquia"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            }
+        ]
+    },
+    {
+        "nomenclator": "SurtidosFabricante.txt",
+        "label": "Surtidos",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoDistribuidor",
+                "columnName": "CodigoDistribuidor"
+            },
+            {
+                "columnKey": "NivCliente",
+                "columnName": "NivCliente"
+            },
+            {
+                "columnKey": "EjeCliente",
+                "columnName": "EjeCliente"
+            },
+            {
+                "columnKey": "NivProducto",
+                "columnName": "NivProducto"
+            },
+            {
+                "columnKey": "EjeProducto",
+                "columnName": "EjeProducto"
+            },
+            {
+                "columnKey": "FechaIniVigencia",
+                "columnName": "FechaIniVigencia"
+            },
+            {
+                "columnKey": "FechaFinVigencia",
+                "columnName": "FechaFinVigencia"
+            },
+            {
+                "columnKey": "IdSurtido",
+                "columnName": "IdSurtido"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            }
+        ]
+    },
+    {
+        "nomenclator": "PreciosFabricante.txt",
+        "label": "Precios (tarifas y descuentos)",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoDistribuidor",
+                "columnName": "CodigoDistribuidor"
+            },
+            {
+                "columnKey": "NivCliente",
+                "columnName": "NivCliente"
+            },
+            {
+                "columnKey": "EjeCliente",
+                "columnName": "EjeCliente"
+            },
+            {
+                "columnKey": "NivProducto",
+                "columnName": "NivProducto"
+            },
+            {
+                "columnKey": "EjeProducto",
+                "columnName": "EjeProducto"
+            },
+            {
+                "columnKey": "FechaIniVigencia",
+                "columnName": "FechaIniVigencia"
+            },
+            {
+                "columnKey": "FechaFinVigencia",
+                "columnName": "FechaFinVigencia"
+            },
+            {
+                "columnKey": "TipoPrecio",
+                "columnName": "TipoPrecio"
+            },
+            {
+                "columnKey": "IdPrecio",
+                "columnName": "IdPrecio"
+            },
+            {
+                "columnKey": "Precio",
+                "columnName": "Precio"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Moneda",
+                "columnName": "Moneda"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ReaprovisionamientosFabricante.txt",
+        "label": "Reaprovisionamientos",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoDistribuidor",
+                "columnName": "CodigoDistribuidor"
+            },
+            {
+                "columnKey": "NumPedido",
+                "columnName": "NumPedido"
+            },
+            {
+                "columnKey": "FechaPedido",
+                "columnName": "FechaPedido"
+            },
+            {
+                "columnKey": "FechaEntrega",
+                "columnName": "FechaEntrega"
+            },
+            {
+                "columnKey": "HoraEntregaDesde",
+                "columnName": "HoraEntregaDesde"
+            },
+            {
+                "columnKey": "HoraEntregaHasta",
+                "columnName": "HoraEntregaHasta"
+            },
+            {
+                "columnKey": "FechaEntregaComp",
+                "columnName": "FechaEntregaComp"
+            },
+            {
+                "columnKey": "DireccionEntrega",
+                "columnName": "DireccionEntrega"
+            },
+            {
+                "columnKey": "Poblacion",
+                "columnName": "Poblacion"
+            },
+            {
+                "columnKey": "CodigoPostal",
+                "columnName": "CodigoPostal"
+            },
+            {
+                "columnKey": "ReferenciaFabricante",
+                "columnName": "ReferenciaFabricante"
+            },
+            {
+                "columnKey": "InfoAdicional",
+                "columnName": "InfoAdicional"
+            },
+            {
+                "columnKey": "ContactoDistribuidor",
+                "columnName": "ContactoDistribuidor"
+            },
+            {
+                "columnKey": "ContactoFabricante",
+                "columnName": "ContactoFabricante"
+            },
+            {
+                "columnKey": "IndRecogerEnvases",
+                "columnName": "IndRecogerEnvases"
+            },
+            {
+                "columnKey": "Almacen",
+                "columnName": "Almacen"
+            },
+            {
+                "columnKey": "SituacionPedido",
+                "columnName": "SituacionPedido"
+            },
+            {
+                "columnKey": "Partida presupuesto (Libre1)",
+                "columnName": "Partida presupuesto (Libre1)"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "NumLineaComp",
+                "columnName": "NumLineaComp"
+            },
+            {
+                "columnKey": "TipoLinea",
+                "columnName": "TipoLinea"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Descripcion",
+                "columnName": "Descripcion"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "CantidadGestion",
+                "columnName": "CantidadGestion"
+            },
+            {
+                "columnKey": "UMGestion",
+                "columnName": "UMGestion"
+            },
+            {
+                "columnKey": "FechaCarga",
+                "columnName": "FechaCarga"
+            },
+            {
+                "columnKey": "AccionLinea",
+                "columnName": "AccionLinea"
+            },
+            {
+                "columnKey": "MotivoAnulacion",
+                "columnName": "MotivoAnulacion"
+            },
+            {
+                "columnKey": "MotivoModificacion",
+                "columnName": "MotivoModificacion"
+            },
+            {
+                "columnKey": "NumLineaPadre (Libre1)",
+                "columnName": "NumLineaPadre (Libre1)"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            },
+            {
+                "columnKey": "FechaCreacion",
+                "columnName": "FechaCreacion"
+            },
+            {
+                "columnKey": "FechaModificacion",
+                "columnName": "FechaModificacion"
+            },
+            {
+                "columnKey": "UsuarioCreacion",
+                "columnName": "UsuarioCreacion"
+            },
+            {
+                "columnKey": "UsuarioModificacion",
+                "columnName": "UsuarioModificacion"
+            },
+            {
+                "columnKey": "Acción",
+                "columnName": "Acción"
+            },
+            {
+                "columnKey": "TipoReaprovisionamiento",
+                "columnName": "TipoReaprovisionamiento"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "NumPedidoCliente",
+                "columnName": "NumPedidoCliente"
+            },
+            {
+                "columnKey": "TipoPedido",
+                "columnName": "TipoPedido"
+            }
+        ]
+    },
+    {
+        "nomenclator": "SellInDistribuidoresFabricante.txt",
+        "label": "Venta interna de distribuidores",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoDistribuidor",
+                "columnName": "CodigoDistribuidor"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "Mes",
+                "columnName": "Mes"
+            },
+            {
+                "columnKey": "Año",
+                "columnName": "Año"
+            },
+            {
+                "columnKey": "TipoLinea",
+                "columnName": "TipoLinea"
+            },
+            {
+                "columnKey": "Cantidad",
+                "columnName": "Cantidad"
+            },
+            {
+                "columnKey": "UM",
+                "columnName": "UM"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "CantLibre1",
+                "columnName": "CantLibre1"
+            },
+            {
+                "columnKey": "CantLibre2",
+                "columnName": "CantLibre2"
+            },
+            {
+                "columnKey": "ImporteSellin",
+                "columnName": "ImporteSellin"
+            },
+            {
+                "columnKey": "Semana",
+                "columnName": "Semana"
+            },
+            {
+                "columnKey": "Fecha",
+                "columnName": "Fecha"
+            }
+        ]
+    },
+    {
+        "nomenclator": "FacturasFabricante.txt",
+        "label": "Facturas",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumFactura",
+                "columnName": "NumFactura"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "Contador",
+                "columnName": "Contador"
+            },
+            {
+                "columnKey": "NumLinea",
+                "columnName": "NumLinea"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "CodigoClienteFactura",
+                "columnName": "CodigoClienteFactura"
+            },
+            {
+                "columnKey": "OrigenFactura",
+                "columnName": "OrigenFactura"
+            },
+            {
+                "columnKey": "TipoFactura",
+                "columnName": "TipoFactura"
+            },
+            {
+                "columnKey": "TipoDocumento",
+                "columnName": "TipoDocumento"
+            },
+            {
+                "columnKey": "FechaFactura",
+                "columnName": "FechaFactura"
+            },
+            {
+                "columnKey": "FechaServicio",
+                "columnName": "FechaServicio"
+            },
+            {
+                "columnKey": "NumAlbaran",
+                "columnName": "NumAlbaran"
+            },
+            {
+                "columnKey": "NumPedidoCli",
+                "columnName": "NumPedidoCli"
+            },
+            {
+                "columnKey": "NumPedidoFab",
+                "columnName": "NumPedidoFab"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            },
+            {
+                "columnKey": "DescripcionProducto",
+                "columnName": "DescripcionProducto"
+            },
+            {
+                "columnKey": "CantidadProducto",
+                "columnName": "CantidadProducto"
+            },
+            {
+                "columnKey": "UMProducto",
+                "columnName": "UMProducto"
+            },
+            {
+                "columnKey": "ImporteNeto",
+                "columnName": "ImporteNeto"
+            },
+            {
+                "columnKey": "ImporteIVA",
+                "columnName": "ImporteIVA"
+            },
+            {
+                "columnKey": "ImporteTotal",
+                "columnName": "ImporteTotal"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Layout",
+                "columnName": "Layout"
+            }
+        ]
+    },
+    {
+        "nomenclator": "TextosFacturasFabricante.txt",
+        "label": "Textos de factura",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NumFactura",
+                "columnName": "NumFactura"
+            },
+            {
+                "columnKey": "Ejercicio",
+                "columnName": "Ejercicio"
+            },
+            {
+                "columnKey": "Contador",
+                "columnName": "Contador"
+            },
+            {
+                "columnKey": "Grupo",
+                "columnName": "Grupo"
+            },
+            {
+                "columnKey": "Orden",
+                "columnName": "Orden"
+            },
+            {
+                "columnKey": "Texto",
+                "columnName": "Texto"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            }
+        ]
+    },
+    {
+        "nomenclator": "VentaInternaFabricante.txt",
+        "label": "Venta interna",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "Tipo",
+                "columnName": "Tipo"
+            },
+            {
+                "columnKey": "Año",
+                "columnName": "Año"
+            },
+            {
+                "columnKey": "Mes",
+                "columnName": "Mes"
+            },
+            {
+                "columnKey": "Semana",
+                "columnName": "Semana"
+            },
+            {
+                "columnKey": "Día",
+                "columnName": "Día"
+            },
+            {
+                "columnKey": "Cliente",
+                "columnName": "Cliente"
+            },
+            {
+                "columnKey": "Producto",
+                "columnName": "Producto"
+            },
+            {
+                "columnKey": "Cantidad1",
+                "columnName": "Cantidad1"
+            },
+            {
+                "columnKey": "UMCantidad1",
+                "columnName": "UMCantidad1"
+            },
+            {
+                "columnKey": "Cantidad2",
+                "columnName": "Cantidad2"
+            },
+            {
+                "columnKey": "UMCantidad2",
+                "columnName": "UMCantidad2"
+            },
+            {
+                "columnKey": "Cantidad3",
+                "columnName": "Cantidad3"
+            },
+            {
+                "columnKey": "UMCantidad3",
+                "columnName": "UMCantidad3"
+            },
+            {
+                "columnKey": "Valor1",
+                "columnName": "Valor1"
+            },
+            {
+                "columnKey": "Valor2",
+                "columnName": "Valor2"
+            },
+            {
+                "columnKey": "Valor3",
+                "columnName": "Valor3"
+            },
+            {
+                "columnKey": "Valor4",
+                "columnName": "Valor4"
+            },
+            {
+                "columnKey": "Valor5",
+                "columnName": "Valor5"
+            },
+            {
+                "columnKey": "Valor6",
+                "columnName": "Valor6"
+            },
+            {
+                "columnKey": "Valor7",
+                "columnName": "Valor7"
+            },
+            {
+                "columnKey": "Valor8",
+                "columnName": "Valor8"
+            },
+            {
+                "columnKey": "Valor9",
+                "columnName": "Valor9"
+            },
+            {
+                "columnKey": "Valor10",
+                "columnName": "Valor10"
+            },
+            {
+                "columnKey": "Valor11",
+                "columnName": "Valor11"
+            },
+            {
+                "columnKey": "Valor12",
+                "columnName": "Valor12"
+            },
+            {
+                "columnKey": "Valor13",
+                "columnName": "Valor13"
+            },
+            {
+                "columnKey": "Valor14",
+                "columnName": "Valor14"
+            },
+            {
+                "columnKey": "Valor15",
+                "columnName": "Valor15"
+            },
+            {
+                "columnKey": "Valor16",
+                "columnName": "Valor16"
+            },
+            {
+                "columnKey": "Valor17",
+                "columnName": "Valor17"
+            },
+            {
+                "columnKey": "Valor18",
+                "columnName": "Valor18"
+            },
+            {
+                "columnKey": "Valor19",
+                "columnName": "Valor19"
+            },
+            {
+                "columnKey": "Valor20",
+                "columnName": "Valor20"
+            },
+            {
+                "columnKey": "Valor21",
+                "columnName": "Valor21"
+            },
+            {
+                "columnKey": "Valor22",
+                "columnName": "Valor22"
+            },
+            {
+                "columnKey": "Valor23",
+                "columnName": "Valor23"
+            },
+            {
+                "columnKey": "Valor24",
+                "columnName": "Valor24"
+            },
+            {
+                "columnKey": "Valor25",
+                "columnName": "Valor25"
+            },
+            {
+                "columnKey": "Valor26",
+                "columnName": "Valor26"
+            },
+            {
+                "columnKey": "Valor27",
+                "columnName": "Valor27"
+            },
+            {
+                "columnKey": "Valor28",
+                "columnName": "Valor28"
+            },
+            {
+                "columnKey": "Valor29",
+                "columnName": "Valor29"
+            },
+            {
+                "columnKey": "Valor30",
+                "columnName": "Valor30"
+            },
+            {
+                "columnKey": "Valor31",
+                "columnName": "Valor31"
+            },
+            {
+                "columnKey": "Valor32",
+                "columnName": "Valor32"
+            },
+            {
+                "columnKey": "Valor33",
+                "columnName": "Valor33"
+            },
+            {
+                "columnKey": "Valor34",
+                "columnName": "Valor34"
+            },
+            {
+                "columnKey": "Valor35",
+                "columnName": "Valor35"
+            },
+            {
+                "columnKey": "Valor36",
+                "columnName": "Valor36"
+            },
+            {
+                "columnKey": "Valor37",
+                "columnName": "Valor37"
+            },
+            {
+                "columnKey": "Valor38",
+                "columnName": "Valor38"
+            },
+            {
+                "columnKey": "Valor39",
+                "columnName": "Valor39"
+            },
+            {
+                "columnKey": "Valor40",
+                "columnName": "Valor40"
+            },
+            {
+                "columnKey": "Valor41",
+                "columnName": "Valor41"
+            },
+            {
+                "columnKey": "Valor42",
+                "columnName": "Valor42"
+            },
+            {
+                "columnKey": "Valor43",
+                "columnName": "Valor43"
+            },
+            {
+                "columnKey": "Valor44",
+                "columnName": "Valor44"
+            },
+            {
+                "columnKey": "Valor45",
+                "columnName": "Valor45"
+            },
+            {
+                "columnKey": "Valor46",
+                "columnName": "Valor46"
+            },
+            {
+                "columnKey": "Valor47",
+                "columnName": "Valor47"
+            },
+            {
+                "columnKey": "Valor48",
+                "columnName": "Valor48"
+            },
+            {
+                "columnKey": "Valor49",
+                "columnName": "Valor49"
+            },
+            {
+                "columnKey": "Valor50",
+                "columnName": "Valor50"
+            },
+            {
+                "columnKey": "Valor51",
+                "columnName": "Valor51"
+            },
+            {
+                "columnKey": "Valor52",
+                "columnName": "Valor52"
+            },
+            {
+                "columnKey": "Valor53",
+                "columnName": "Valor53"
+            },
+            {
+                "columnKey": "Valor54",
+                "columnName": "Valor54"
+            },
+            {
+                "columnKey": "Valor55",
+                "columnName": "Valor55"
+            },
+            {
+                "columnKey": "Valor56",
+                "columnName": "Valor56"
+            },
+            {
+                "columnKey": "Valor57",
+                "columnName": "Valor57"
+            },
+            {
+                "columnKey": "Valor58",
+                "columnName": "Valor58"
+            },
+            {
+                "columnKey": "Valor59",
+                "columnName": "Valor59"
+            },
+            {
+                "columnKey": "Valor60",
+                "columnName": "Valor60"
+            },
+            {
+                "columnKey": "Valor61",
+                "columnName": "Valor61"
+            },
+            {
+                "columnKey": "Valor62",
+                "columnName": "Valor62"
+            },
+            {
+                "columnKey": "Valor63",
+                "columnName": "Valor63"
+            },
+            {
+                "columnKey": "Valor64",
+                "columnName": "Valor64"
+            },
+            {
+                "columnKey": "Valor65",
+                "columnName": "Valor65"
+            },
+            {
+                "columnKey": "Valor66",
+                "columnName": "Valor66"
+            },
+            {
+                "columnKey": "Valor67",
+                "columnName": "Valor67"
+            },
+            {
+                "columnKey": "Valor68",
+                "columnName": "Valor68"
+            },
+            {
+                "columnKey": "Valor69",
+                "columnName": "Valor69"
+            },
+            {
+                "columnKey": "Valor70",
+                "columnName": "Valor70"
+            },
+            {
+                "columnKey": "Valor71",
+                "columnName": "Valor71"
+            },
+            {
+                "columnKey": "Valor72",
+                "columnName": "Valor72"
+            },
+            {
+                "columnKey": "Valor73",
+                "columnName": "Valor73"
+            },
+            {
+                "columnKey": "Valor74",
+                "columnName": "Valor74"
+            },
+            {
+                "columnKey": "Valor75",
+                "columnName": "Valor75"
+            },
+            {
+                "columnKey": "Valor76",
+                "columnName": "Valor76"
+            },
+            {
+                "columnKey": "Valor77",
+                "columnName": "Valor77"
+            },
+            {
+                "columnKey": "Valor78",
+                "columnName": "Valor78"
+            },
+            {
+                "columnKey": "Valor79",
+                "columnName": "Valor79"
+            },
+            {
+                "columnKey": "Valor80",
+                "columnName": "Valor80"
+            },
+            {
+                "columnKey": "Valor81",
+                "columnName": "Valor81"
+            },
+            {
+                "columnKey": "Valor82",
+                "columnName": "Valor82"
+            },
+            {
+                "columnKey": "Valor83",
+                "columnName": "Valor83"
+            },
+            {
+                "columnKey": "Valor84",
+                "columnName": "Valor84"
+            },
+            {
+                "columnKey": "Valor85",
+                "columnName": "Valor85"
+            },
+            {
+                "columnKey": "Valor86",
+                "columnName": "Valor86"
+            },
+            {
+                "columnKey": "Valor87",
+                "columnName": "Valor87"
+            },
+            {
+                "columnKey": "Valor88",
+                "columnName": "Valor88"
+            },
+            {
+                "columnKey": "Valor89",
+                "columnName": "Valor89"
+            },
+            {
+                "columnKey": "Valor90",
+                "columnName": "Valor90"
+            },
+            {
+                "columnKey": "Valor91",
+                "columnName": "Valor91"
+            },
+            {
+                "columnKey": "Valor92",
+                "columnName": "Valor92"
+            },
+            {
+                "columnKey": "Valor93",
+                "columnName": "Valor93"
+            },
+            {
+                "columnKey": "Valor94",
+                "columnName": "Valor94"
+            },
+            {
+                "columnKey": "Valor95",
+                "columnName": "Valor95"
+            },
+            {
+                "columnKey": "Valor96",
+                "columnName": "Valor96"
+            },
+            {
+                "columnKey": "Valor97",
+                "columnName": "Valor97"
+            },
+            {
+                "columnKey": "Valor98",
+                "columnName": "Valor98"
+            },
+            {
+                "columnKey": "Valor99",
+                "columnName": "Valor99"
+            },
+            {
+                "columnKey": "Valor100",
+                "columnName": "Valor100"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "PosicionamientoPdVFabricante.txt",
+        "label": "Posicionamiento puntos de venta",
+        "entity": "manufacturer",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "Tipo",
+                "columnName": "Tipo"
+            },
+            {
+                "columnKey": "Año",
+                "columnName": "Año"
+            },
+            {
+                "columnKey": "Mes",
+                "columnName": "Mes"
+            },
+            {
+                "columnKey": "Semana",
+                "columnName": "Semana"
+            },
+            {
+                "columnKey": "Día",
+                "columnName": "Día"
+            },
+            {
+                "columnKey": "Cliente",
+                "columnName": "Cliente"
+            },
+            {
+                "columnKey": "Producto",
+                "columnName": "Producto"
+            },
+            {
+                "columnKey": "SubTipo",
+                "columnName": "SubTipo"
+            },
+            {
+                "columnKey": "Precio1",
+                "columnName": "Precio1"
+            },
+            {
+                "columnKey": "Precio2",
+                "columnName": "Precio2"
+            },
+            {
+                "columnKey": "Precio3",
+                "columnName": "Precio3"
+            },
+            {
+                "columnKey": "Precio4",
+                "columnName": "Precio4"
+            },
+            {
+                "columnKey": "Precio5",
+                "columnName": "Precio5"
+            },
+            {
+                "columnKey": "NumeroCaras",
+                "columnName": "NumeroCaras"
+            },
+            {
+                "columnKey": "NumeroCarasAgr1",
+                "columnName": "NumeroCarasAgr1"
+            },
+            {
+                "columnKey": "NumeroCarasAgr2",
+                "columnName": "NumeroCarasAgr2"
+            },
+            {
+                "columnKey": "NumeroBaldas",
+                "columnName": "NumeroBaldas"
+            },
+            {
+                "columnKey": "NumeroBaldasAgr1",
+                "columnName": "NumeroBaldasAgr1"
+            },
+            {
+                "columnKey": "NumeroBaldasAgr2",
+                "columnName": "NumeroBaldasAgr2"
+            },
+            {
+                "columnKey": "NumeroReferenciasAgr1",
+                "columnName": "NumeroReferenciasAgr1"
+            },
+            {
+                "columnKey": "NumeroReferenciasAgr2",
+                "columnName": "NumeroReferenciasAgr2"
+            },
+            {
+                "columnKey": "SurtidoPactado",
+                "columnName": "SurtidoPactado"
+            },
+            {
+                "columnKey": "TipoAccion",
+                "columnName": "TipoAccion"
+            },
+            {
+                "columnKey": "NumeroAcciones",
+                "columnName": "NumeroAcciones"
+            },
+            {
+                "columnKey": "AccionAuditable",
+                "columnName": "AccionAuditable"
+            },
+            {
+                "columnKey": "AccionChequeada",
+                "columnName": "AccionChequeada"
+            },
+            {
+                "columnKey": "TipoIncidencia",
+                "columnName": "TipoIncidencia"
+            },
+            {
+                "columnKey": "NumeroIncidencias",
+                "columnName": "NumeroIncidencias"
+            },
+            {
+                "columnKey": "Presencia",
+                "columnName": "Presencia"
+            },
+            {
+                "columnKey": "NumeroVisitas",
+                "columnName": "NumeroVisitas"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            },
+            {
+                "columnKey": "Lineal1",
+                "columnName": "Lineal1"
+            },
+            {
+                "columnKey": "Lineal2",
+                "columnName": "Lineal2"
+            },
+            {
+                "columnKey": "Lineal3",
+                "columnName": "Lineal3"
+            },
+            {
+                "columnKey": "Lineal4",
+                "columnName": "Lineal4"
+            },
+            {
+                "columnKey": "Lineal5",
+                "columnName": "Lineal5"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Clasificacion4",
+                "columnName": "Clasificacion4"
+            },
+            {
+                "columnKey": "Clasificacion5",
+                "columnName": "Clasificacion5"
+            },
+            {
+                "columnKey": "Clasificacion6",
+                "columnName": "Clasificacion6"
+            },
+            {
+                "columnKey": "Clasificacion7",
+                "columnName": "Clasificacion7"
+            },
+            {
+                "columnKey": "Clasificacion8",
+                "columnName": "Clasificacion8"
+            },
+            {
+                "columnKey": "Clasificacion9",
+                "columnName": "Clasificacion9"
+            },
+            {
+                "columnKey": "Clasificacion10",
+                "columnName": "Clasificacion10"
+            }
+        ]
+    },
+    {
+        "nomenclator": "PosicionamientoPdVMarketer.txt",
+        "label": "Posicionamiento puntos de venta",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoFabricante",
+                "columnName": "CodigoFabricante"
+            },
+            {
+                "columnKey": "Tipo",
+                "columnName": "Tipo"
+            },
+            {
+                "columnKey": "Año",
+                "columnName": "Año"
+            },
+            {
+                "columnKey": "Mes",
+                "columnName": "Mes"
+            },
+            {
+                "columnKey": "Semana",
+                "columnName": "Semana"
+            },
+            {
+                "columnKey": "Día",
+                "columnName": "Día"
+            },
+            {
+                "columnKey": "Cliente",
+                "columnName": "Cliente"
+            },
+            {
+                "columnKey": "Producto",
+                "columnName": "Producto"
+            },
+            {
+                "columnKey": "SubTipo",
+                "columnName": "SubTipo"
+            },
+            {
+                "columnKey": "Precio1",
+                "columnName": "Precio1"
+            },
+            {
+                "columnKey": "Precio2",
+                "columnName": "Precio2"
+            },
+            {
+                "columnKey": "Precio3",
+                "columnName": "Precio3"
+            },
+            {
+                "columnKey": "Precio4",
+                "columnName": "Precio4"
+            },
+            {
+                "columnKey": "Precio5",
+                "columnName": "Precio5"
+            },
+            {
+                "columnKey": "NumeroCaras",
+                "columnName": "NumeroCaras"
+            },
+            {
+                "columnKey": "NumeroCarasAgr1",
+                "columnName": "NumeroCarasAgr1"
+            },
+            {
+                "columnKey": "NumeroCarasAgr2",
+                "columnName": "NumeroCarasAgr2"
+            },
+            {
+                "columnKey": "NumeroBaldas",
+                "columnName": "NumeroBaldas"
+            },
+            {
+                "columnKey": "NumeroBaldasAgr1",
+                "columnName": "NumeroBaldasAgr1"
+            },
+            {
+                "columnKey": "NumeroBaldasAgr2",
+                "columnName": "NumeroBaldasAgr2"
+            },
+            {
+                "columnKey": "NumeroReferenciasAgr1",
+                "columnName": "NumeroReferenciasAgr1"
+            },
+            {
+                "columnKey": "NumeroReferenciasAgr2",
+                "columnName": "NumeroReferenciasAgr2"
+            },
+            {
+                "columnKey": "SurtidoPactado",
+                "columnName": "SurtidoPactado"
+            },
+            {
+                "columnKey": "TipoAccion",
+                "columnName": "TipoAccion"
+            },
+            {
+                "columnKey": "NumeroAcciones",
+                "columnName": "NumeroAcciones"
+            },
+            {
+                "columnKey": "AccionAuditable",
+                "columnName": "AccionAuditable"
+            },
+            {
+                "columnKey": "AccionChequeada",
+                "columnName": "AccionChequeada"
+            },
+            {
+                "columnKey": "TipoIncidencia",
+                "columnName": "TipoIncidencia"
+            },
+            {
+                "columnKey": "NumeroIncidencias",
+                "columnName": "NumeroIncidencias"
+            },
+            {
+                "columnKey": "Presencia",
+                "columnName": "Presencia"
+            },
+            {
+                "columnKey": "NumeroVisitas",
+                "columnName": "NumeroVisitas"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            },
+            {
+                "columnKey": "Lineal1",
+                "columnName": "Lineal1"
+            },
+            {
+                "columnKey": "Lineal2",
+                "columnName": "Lineal2"
+            },
+            {
+                "columnKey": "Lineal3",
+                "columnName": "Lineal3"
+            },
+            {
+                "columnKey": "Lineal4",
+                "columnName": "Lineal4"
+            },
+            {
+                "columnKey": "Lineal5",
+                "columnName": "Lineal5"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            },
+            {
+                "columnKey": "Clasificacion4",
+                "columnName": "Clasificacion4"
+            },
+            {
+                "columnKey": "Clasificacion5",
+                "columnName": "Clasificacion5"
+            },
+            {
+                "columnKey": "Clasificacion6",
+                "columnName": "Clasificacion6"
+            },
+            {
+                "columnKey": "Clasificacion7",
+                "columnName": "Clasificacion7"
+            },
+            {
+                "columnKey": "Clasificacion8",
+                "columnName": "Clasificacion8"
+            },
+            {
+                "columnKey": "Clasificacion9",
+                "columnName": "Clasificacion9"
+            },
+            {
+                "columnKey": "Clasificacion10",
+                "columnName": "Clasificacion10"
+            }
+        ]
+    },
+    {
+        "nomenclator": "MercadoMarketer.txt",
+        "label": "Información de mercado",
+        "entity": "distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoFabricante",
+                "columnName": "CodigoFabricante"
+            },
+            {
+                "columnKey": "TipoInfo",
+                "columnName": "TipoInfo"
+            },
+            {
+                "columnKey": "Año",
+                "columnName": "Año"
+            },
+            {
+                "columnKey": "Mes",
+                "columnName": "Mes"
+            },
+            {
+                "columnKey": "Semana",
+                "columnName": "Semana"
+            },
+            {
+                "columnKey": "Día",
+                "columnName": "Día"
+            },
+            {
+                "columnKey": "Cliente",
+                "columnName": "Cliente"
+            },
+            {
+                "columnKey": "Producto",
+                "columnName": "Producto"
+            },
+            {
+                "columnKey": "Cantidad1",
+                "columnName": "Cantidad1"
+            },
+            {
+                "columnKey": "UMCantidad1",
+                "columnName": "UMCantidad1"
+            },
+            {
+                "columnKey": "Cantidad2",
+                "columnName": "Cantidad2"
+            },
+            {
+                "columnKey": "UMCantidad2",
+                "columnName": "UMCantidad2"
+            },
+            {
+                "columnKey": "Cantidad3",
+                "columnName": "Cantidad3"
+            },
+            {
+                "columnKey": "UMCantidad3",
+                "columnName": "UMCantidad3"
+            },
+            {
+                "columnKey": "Cantidad4",
+                "columnName": "Cantidad4"
+            },
+            {
+                "columnKey": "UMCantidad4",
+                "columnName": "UMCantidad4"
+            },
+            {
+                "columnKey": "Cantidad5",
+                "columnName": "Cantidad5"
+            },
+            {
+                "columnKey": "UMCantidad5",
+                "columnName": "UMCantidad5"
+            },
+            {
+                "columnKey": "Cantidad6",
+                "columnName": "Cantidad6"
+            },
+            {
+                "columnKey": "UMCantidad6",
+                "columnName": "UMCantidad6"
+            },
+            {
+                "columnKey": "Cantidad7",
+                "columnName": "Cantidad7"
+            },
+            {
+                "columnKey": "UMCantidad7",
+                "columnName": "UMCantidad7"
+            },
+            {
+                "columnKey": "Cantidad8",
+                "columnName": "Cantidad8"
+            },
+            {
+                "columnKey": "UMCantidad8",
+                "columnName": "UMCantidad8"
+            },
+            {
+                "columnKey": "Cantidad9",
+                "columnName": "Cantidad9"
+            },
+            {
+                "columnKey": "UMCantidad9",
+                "columnName": "UMCantidad9"
+            },
+            {
+                "columnKey": "Cantidad10",
+                "columnName": "Cantidad10"
+            },
+            {
+                "columnKey": "UMCantidad10",
+                "columnName": "UMCantidad10"
+            },
+            {
+                "columnKey": "Cantidad11",
+                "columnName": "Cantidad11"
+            },
+            {
+                "columnKey": "UMCantidad11",
+                "columnName": "UMCantidad11"
+            },
+            {
+                "columnKey": "Cantidad12",
+                "columnName": "Cantidad12"
+            },
+            {
+                "columnKey": "UMCantidad12",
+                "columnName": "UMCantidad12"
+            },
+            {
+                "columnKey": "Cantidad13",
+                "columnName": "Cantidad13"
+            },
+            {
+                "columnKey": "UMCantidad13",
+                "columnName": "UMCantidad13"
+            },
+            {
+                "columnKey": "Cantidad14",
+                "columnName": "Cantidad14"
+            },
+            {
+                "columnKey": "UMCantidad14",
+                "columnName": "UMCantidad14"
+            },
+            {
+                "columnKey": "Cantidad15",
+                "columnName": "Cantidad15"
+            },
+            {
+                "columnKey": "UMCantidad15",
+                "columnName": "UMCantidad15"
+            },
+            {
+                "columnKey": "Importe1",
+                "columnName": "Importe1"
+            },
+            {
+                "columnKey": "Importe2",
+                "columnName": "Importe2"
+            },
+            {
+                "columnKey": "Importe3",
+                "columnName": "Importe3"
+            },
+            {
+                "columnKey": "Importe4",
+                "columnName": "Importe4"
+            },
+            {
+                "columnKey": "Importe5",
+                "columnName": "Importe5"
+            },
+            {
+                "columnKey": "Importe6",
+                "columnName": "Importe6"
+            },
+            {
+                "columnKey": "Importe7",
+                "columnName": "Importe7"
+            },
+            {
+                "columnKey": "Importe8",
+                "columnName": "Importe8"
+            },
+            {
+                "columnKey": "Importe9",
+                "columnName": "Importe9"
+            },
+            {
+                "columnKey": "Importe10",
+                "columnName": "Importe10"
+            },
+            {
+                "columnKey": "Importe11",
+                "columnName": "Importe11"
+            },
+            {
+                "columnKey": "Importe12",
+                "columnName": "Importe12"
+            },
+            {
+                "columnKey": "Importe13",
+                "columnName": "Importe13"
+            },
+            {
+                "columnKey": "Importe14",
+                "columnName": "Importe14"
+            },
+            {
+                "columnKey": "Importe15",
+                "columnName": "Importe15"
+            },
+            {
+                "columnKey": "Porcentaje1",
+                "columnName": "Porcentaje1"
+            },
+            {
+                "columnKey": "Porcentaje2",
+                "columnName": "Porcentaje2"
+            },
+            {
+                "columnKey": "Porcentaje3",
+                "columnName": "Porcentaje3"
+            },
+            {
+                "columnKey": "Porcentaje4",
+                "columnName": "Porcentaje4"
+            },
+            {
+                "columnKey": "Porcentaje5",
+                "columnName": "Porcentaje5"
+            },
+            {
+                "columnKey": "Porcentaje6",
+                "columnName": "Porcentaje6"
+            },
+            {
+                "columnKey": "Porcentaje7",
+                "columnName": "Porcentaje7"
+            },
+            {
+                "columnKey": "Porcentaje8",
+                "columnName": "Porcentaje8"
+            },
+            {
+                "columnKey": "Porcentaje9",
+                "columnName": "Porcentaje9"
+            },
+            {
+                "columnKey": "Porcentaje10",
+                "columnName": "Porcentaje10"
+            },
+            {
+                "columnKey": "Porcentaje11",
+                "columnName": "Porcentaje11"
+            },
+            {
+                "columnKey": "Porcentaje12",
+                "columnName": "Porcentaje12"
+            },
+            {
+                "columnKey": "Porcentaje13",
+                "columnName": "Porcentaje13"
+            },
+            {
+                "columnKey": "Porcentaje14",
+                "columnName": "Porcentaje14"
+            },
+            {
+                "columnKey": "Porcentaje15",
+                "columnName": "Porcentaje15"
+            },
+            {
+                "columnKey": "Texto1",
+                "columnName": "Texto1"
+            },
+            {
+                "columnKey": "Texto2",
+                "columnName": "Texto2"
+            },
+            {
+                "columnKey": "Texto3",
+                "columnName": "Texto3"
+            },
+            {
+                "columnKey": "Texto4",
+                "columnName": "Texto4"
+            },
+            {
+                "columnKey": "Texto5",
+                "columnName": "Texto5"
+            },
+            {
+                "columnKey": "Texto6",
+                "columnName": "Texto6"
+            },
+            {
+                "columnKey": "Texto7",
+                "columnName": "Texto7"
+            },
+            {
+                "columnKey": "Texto8",
+                "columnName": "Texto8"
+            },
+            {
+                "columnKey": "Texto9",
+                "columnName": "Texto9"
+            },
+            {
+                "columnKey": "Texto10",
+                "columnName": "Texto10"
+            },
+            {
+                "columnKey": "Texto11",
+                "columnName": "Texto11"
+            },
+            {
+                "columnKey": "Texto12",
+                "columnName": "Texto12"
+            },
+            {
+                "columnKey": "Texto13",
+                "columnName": "Texto13"
+            },
+            {
+                "columnKey": "Texto14",
+                "columnName": "Texto14"
+            },
+            {
+                "columnKey": "Texto15",
+                "columnName": "Texto15"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "TablasAgente.txt",
+        "label": "Datos genéricos",
+        "entity": "manufacturer|distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NombreTabla",
+                "columnName": "NombreTabla"
+            },
+            {
+                "columnKey": "Clave1",
+                "columnName": "Clave1"
+            },
+            {
+                "columnKey": "Clave2",
+                "columnName": "Clave2"
+            },
+            {
+                "columnKey": "Clave3",
+                "columnName": "Clave3"
+            },
+            {
+                "columnKey": "Clave4",
+                "columnName": "Clave4"
+            },
+            {
+                "columnKey": "Clave5",
+                "columnName": "Clave5"
+            },
+            {
+                "columnKey": "Libre1",
+                "columnName": "Libre1"
+            },
+            {
+                "columnKey": "Libre2",
+                "columnName": "Libre2"
+            },
+            {
+                "columnKey": "Libre3",
+                "columnName": "Libre3"
+            },
+            {
+                "columnKey": "Libre4",
+                "columnName": "Libre4"
+            },
+            {
+                "columnKey": "Libre5",
+                "columnName": "Libre5"
+            },
+            {
+                "columnKey": "ValorChar1",
+                "columnName": "ValorChar1"
+            },
+            {
+                "columnKey": "ValorChar2",
+                "columnName": "ValorChar2"
+            },
+            {
+                "columnKey": "ValorChar3",
+                "columnName": "ValorChar3"
+            },
+            {
+                "columnKey": "ValorChar4",
+                "columnName": "ValorChar4"
+            },
+            {
+                "columnKey": "ValorChar5",
+                "columnName": "ValorChar5"
+            },
+            {
+                "columnKey": "Libre6",
+                "columnName": "Libre6"
+            },
+            {
+                "columnKey": "Libre7",
+                "columnName": "Libre7"
+            },
+            {
+                "columnKey": "Libre8",
+                "columnName": "Libre8"
+            },
+            {
+                "columnKey": "Libre9",
+                "columnName": "Libre9"
+            },
+            {
+                "columnKey": "Libre10",
+                "columnName": "Libre10"
+            },
+            {
+                "columnKey": "ValorNum1",
+                "columnName": "ValorNum1"
+            },
+            {
+                "columnKey": "ValorNum2",
+                "columnName": "ValorNum2"
+            },
+            {
+                "columnKey": "ValorNum3",
+                "columnName": "ValorNum3"
+            },
+            {
+                "columnKey": "ValorNum4",
+                "columnName": "ValorNum4"
+            },
+            {
+                "columnKey": "ValorNum5",
+                "columnName": "ValorNum5"
+            },
+            {
+                "columnKey": "Libre11",
+                "columnName": "Libre11"
+            },
+            {
+                "columnKey": "Libre12",
+                "columnName": "Libre12"
+            },
+            {
+                "columnKey": "Libre13",
+                "columnName": "Libre13"
+            },
+            {
+                "columnKey": "Libre14",
+                "columnName": "Libre14"
+            },
+            {
+                "columnKey": "Libre15",
+                "columnName": "Libre15"
+            },
+            {
+                "columnKey": "ValorDate1",
+                "columnName": "ValorDate1"
+            },
+            {
+                "columnKey": "ValorDate2",
+                "columnName": "ValorDate2"
+            },
+            {
+                "columnKey": "ValorDate3",
+                "columnName": "ValorDate3"
+            },
+            {
+                "columnKey": "ValorDate4",
+                "columnName": "ValorDate4"
+            },
+            {
+                "columnKey": "ValorDate5",
+                "columnName": "ValorDate5"
+            }
+        ]
+    },
+    {
+        "nomenclator": "PromocionesAgente.txt",
+        "label": "Promociones de productos",
+        "entity": "manufacturer|distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoPromocion",
+                "columnName": "CodigoPromocion"
+            },
+            {
+                "columnKey": "Titulo",
+                "columnName": "Titulo"
+            },
+            {
+                "columnKey": "FechaIniVigencia",
+                "columnName": "FechaIniVigencia"
+            },
+            {
+                "columnKey": "FechaFinVigencia",
+                "columnName": "FechaFinVigencia"
+            },
+            {
+                "columnKey": "FechaIniEfecto",
+                "columnName": "FechaIniEfecto"
+            },
+            {
+                "columnKey": "FechaFinEfecto",
+                "columnName": "FechaFinEfecto"
+            },
+            {
+                "columnKey": "NumClientesTarget",
+                "columnName": "NumClientesTarget"
+            },
+            {
+                "columnKey": "IdBookmark",
+                "columnName": "IdBookmark"
+            },
+            {
+                "columnKey": "Clasificacion1",
+                "columnName": "Clasificacion1"
+            },
+            {
+                "columnKey": "Clasificacion2",
+                "columnName": "Clasificacion2"
+            },
+            {
+                "columnKey": "Clasificacion3",
+                "columnName": "Clasificacion3"
+            }
+        ]
+    },
+    {
+        "nomenclator": "LineasPromocionesAgente.txt",
+        "label": "Líneas de promociones de productos",
+        "entity": "manufacturer|distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoPromocion",
+                "columnName": "CodigoPromocion"
+            },
+            {
+                "columnKey": "CodigoProducto",
+                "columnName": "CodigoProducto"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ActividadesAgente.txt",
+        "label": "Actividades en clientes",
+        "entity": "manufacturer|distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "CodigoComercial",
+                "columnName": "CodigoComercial"
+            },
+            {
+                "columnKey": "FechaActividad",
+                "columnName": "FechaActividad"
+            },
+            {
+                "columnKey": "CodigoCliente",
+                "columnName": "CodigoCliente"
+            },
+            {
+                "columnKey": "TipoActividad",
+                "columnName": "TipoActividad"
+            },
+            {
+                "columnKey": "Formato",
+                "columnName": "Formato"
+            },
+            {
+                "columnKey": "Resultado",
+                "columnName": "Resultado"
+            },
+            {
+                "columnKey": "Notas",
+                "columnName": "Notas"
+            },
+            {
+                "columnKey": "FechaFinActividad",
+                "columnName": "FechaFinActividad"
+            },
+            {
+                "columnKey": "Status",
+                "columnName": "Status"
+            }
+        ]
+    },
+    {
+        "nomenclator": "ActivosDigitalesAgente.txt",
+        "label": "Multimedia",
+        "entity": "manufacturer|distributor",
+        "priority": false,
+        "columns": [
+            {
+                "columnKey": "NombreFichero",
+                "columnName": "NombreFichero"
+            },
+            {
+                "columnKey": "Destino",
+                "columnName": "Destino"
+            },
+            {
+                "columnKey": "Visibilidad",
+                "columnName": "Visibilidad"
+            },
+            {
+                "columnKey": "Parametro1",
+                "columnName": "Parametro1"
+            },
+            {
+                "columnKey": "Valor1",
+                "columnName": "Valor1"
+            },
+            {
+                "columnKey": "Parametro2",
+                "columnName": "Parametro2"
+            },
+            {
+                "columnKey": "Valor2",
+                "columnName": "Valor2"
+            },
+            {
+                "columnKey": "Parametro3",
+                "columnName": "Parametro3"
+            },
+            {
+                "columnKey": "Valor3",
+                "columnName": "Valor3"
+            },
+            {
+                "columnKey": "Parametro4",
+                "columnName": "Parametro4"
+            },
+            {
+                "columnKey": "Valor4",
+                "columnName": "Valor4"
+            },
+            {
+                "columnKey": "Parametro5",
+                "columnName": "Parametro5"
+            },
+            {
+                "columnKey": "Valor5",
+                "columnName": "Valor5"
+            },
+            {
+                "columnKey": "Tags",
+                "columnName": "Tags"
+            }
+        ]
+    }
+]
